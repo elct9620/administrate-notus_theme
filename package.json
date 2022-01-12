@@ -5,12 +5,13 @@
   "author": "蒼時弦也 <contact@aotoki.me>",
   "license": "MIT",
   "scripts": {
-    "build": "tailwind build app/assets/stylesheets/administrate-notus_theme/theme.tailwind.css -o app/assets/stylesheets/administrate-notus_theme/theme.css"
+    "watch": "yarn build --watch --jit",
+    "build": "tailwind -i app/assets/stylesheets/administrate-notus_theme/theme.tailwind.css -o app/assets/stylesheets/administrate-notus_theme/theme.css"
   },
   "dependencies": {
-    "@tailwindcss/forms": "0.2.1",
+    "@tailwindcss/forms": "0.3.4",
     "browser-sync": "2.26.14",
-    "tailwindcss": "2.0.4"
+    "tailwindcss": "2.2.16"
   },
   "devDependencies": {
     "autoprefixer": "10.2.5",

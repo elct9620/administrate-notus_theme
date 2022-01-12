@@ -18,6 +18,10 @@ module.exports = {
     colors: {
       ...colors,
     },
+    backgroundColor: {
+      ...colors,
+      'transparent': 'transparent'
+    },
     extend: {
       minHeight: {
         "screen-75": "75vh",
