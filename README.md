@@ -1,8 +1,8 @@
-# Administrate::NotusTheme
-Short description and motivation.
+# Administrate Notus Theme
 
-## Usage
-How to use my plugin.
+The Administrate [Notus Theme](https://demos.creative-tim.com/notus-js/) designed by Creative Tim.
+
+![screenshot](screenshot.png)
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -13,12 +13,7 @@ gem "administrate-notus_theme"
 
 And then execute:
 ```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install administrate-notus_theme
+$ rails g administrate:notus_theme:install
 ```
 
 ## Contributing
