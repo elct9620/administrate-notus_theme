@@ -1,0 +1,19 @@
+{
+  "name": "administrate-notus_theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "蒼時弦也 <contact@aotoki.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwind build app/assets/stylesheets/administrate-notus_theme/theme.tailwind.css -o app/assets/stylesheets/administrate-notus_theme/theme.css"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "0.2.1",
+    "browser-sync": "2.26.14",
+    "tailwindcss": "2.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.2.5",
+    "postcss": "8.2.8"
+  }
+}
