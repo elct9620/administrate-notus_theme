@@ -140,6 +140,14 @@ dl {
   @apply mb-3 last:mb-0;
 }
 
+.attribute-data--has-many table {
+  @apply shadow-none;
+}
+
+.attribute-data--belongs-to a {
+  @apply text-indigo-500;
+}
+
 /**
  * Form
  */
@@ -166,4 +174,32 @@ dl {
 
 .form-actions input[type="submit"] {
   @apply bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150;
+}
+
+/**
+ * Selectize
+ */
+.selectize-input {
+  @apply w-full;
+  @apply border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150;
+}
+
+.selectize-input input {
+  @apply shadow-none px-0 py-0 focus:ring-0 transition-none;
+}
+
+.selectize-input .item {
+  @apply inline-block;
+}
+
+.selectize-dropdown {
+  @apply border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150;
+}
+
+.selectize-dropdown-content .option {
+  @apply px-2 py-1;
+}
+
+.selectize-dropdown-content .active {
+  @apply bg-gray-100;
 }
