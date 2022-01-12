@@ -2031,6 +2031,81 @@ dl {
   background-color: rgba(244, 244, 245, var(--tw-bg-opacity));
 }
 
+/**
+ * Pagination
+ */
+
+.pagination {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  border-radius: 0.25rem;
+  padding-left: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.page {
+  position: relative;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.page:first-child {
+  margin-left: 0px;
+}
+
+.page {
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgba(99, 102, 241, var(--tw-border-opacity));
+  padding: 0px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgba(99, 102, 241, var(--tw-text-opacity));
+}
+
+.page.current {
+  --tw-bg-opacity: 1;
+  background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.first, .last, .next, .prev {
+  position: relative;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.first:first-child, .last:first-child, .next:first-child, .prev:first-child {
+  margin-left: 0px;
+}
+
+.first, .last, .next, .prev {
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  color: rgba(99, 102, 241, var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
 }
 

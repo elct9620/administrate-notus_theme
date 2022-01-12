@@ -203,3 +203,24 @@ dl {
 .selectize-dropdown-content .active {
   @apply bg-gray-100;
 }
+
+/**
+ * Pagination
+ */
+
+.pagination {
+  @apply flex pl-0 rounded list-none flex-wrap;
+  @apply p-4 text-center items-center justify-center;
+}
+
+.page {
+  @apply first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-indigo-500 text-indigo-500;
+}
+
+.page.current {
+  @apply text-white bg-indigo-500;
+}
+
+.first, .last, .next, .prev {
+  @apply first:ml-0 text-xs font-semibold mx-1 p-0 items-center justify-center leading-tight relative text-indigo-500;
+}
