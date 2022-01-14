@@ -224,3 +224,14 @@ dl {
 .first, .last, .next, .prev {
   @apply first:ml-0 text-xs font-semibold mx-1 p-0 items-center justify-center leading-tight relative text-indigo-500;
 }
+
+/**
+ * Flash
+ */
+.flash {
+  @apply text-white px-6 py-4 border-0 relative;
+}
+
+.flash-notice {
+  @apply bg-emerald-500;
+}
