@@ -2106,6 +2106,45 @@ dl {
   color: rgba(99, 102, 241, var(--tw-text-opacity));
 }
 
+/**
+ * Flash
+ */
+
+.flash {
+  position: relative;
+  border-width: 0px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.flash-notice {
+  --tw-bg-opacity: 1;
+  background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
+}
+
+/**
+ * Error Explanation
+ */
+
+#error_explanation {
+  margin-bottom: 1rem;
+}
+
+#error_explanation h2 {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
+.flash-error {
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
 }
 
