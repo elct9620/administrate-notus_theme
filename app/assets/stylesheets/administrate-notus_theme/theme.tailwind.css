@@ -235,3 +235,18 @@ dl {
 .flash-notice {
   @apply bg-emerald-500;
 }
+
+/**
+ * Error Explanation
+ */
+#error_explanation {
+  @apply mb-4;
+}
+
+#error_explanation h2 {
+  @apply font-bold text-red-500;
+}
+
+.flash-error {
+  @apply text-red-500;
+}
