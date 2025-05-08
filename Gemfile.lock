@@ -91,7 +91,7 @@ GEM
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     crass (1.0.6)
-    digest (3.1.0)
+    digest (3.2.0)
     drb (2.2.1)
     erubi (1.13.0)
     globalid (1.2.1)
@@ -112,7 +112,7 @@ GEM
     mini_mime (1.1.2)
     minitest (5.25.4)
     mutex_m (0.3.0)
-    net-imap (0.2.3)
+    net-imap (0.2.5)
       digest
       net-protocol
       strscan
@@ -120,7 +120,7 @@ GEM
       digest
       net-protocol
       timeout
-    net-protocol (0.1.3)
+    net-protocol (0.2.2)
       timeout
     net-smtp (0.3.1)
       digest
@@ -180,9 +180,9 @@ GEM
     securerandom (0.4.0)
     sqlite3 (1.4.2)
     stringio (3.1.0)
-    strscan (3.0.3)
+    strscan (3.1.3)
     thor (1.3.1)
-    timeout (0.4.1)
+    timeout (0.4.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     webrick (1.8.2)
